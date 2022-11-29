@@ -52,6 +52,8 @@ namespace DayOf15
         }
         static void Main(String[] args)
         {
+            // Bu projede index belirtmek için ekxtra kodlar yazılmıştır.
+            // Hacckerrank için index parametrelerinin hepsinin silinmesi gerekmektedir.
             Node head = null;
             int T = int.Parse(Console.ReadLine());
             int index = 0;
