@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace DayOf17
+namespace DayOf18
 {
-
     class Solution
     {
         //Write your code here
