@@ -40,5 +40,3 @@ node "scriptName.js"
 ```
 edleron@hotmail.com 
 ```
-
-Ertugrul
