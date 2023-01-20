@@ -9,7 +9,14 @@ class Polygon {
     }
 
     perimeter() {
-        return this.values.reduce((a, b) => a + b, 0);
+        // The reduce() method runs a function on each array element to produce(reduce it to) a single value.
+        // The reduce() method works from left - to - right in the array.See also reduceRight().
+        // The reduce() method does not reduce the original array.
+        return this.values.reduce((this.myReduceFunction));
+    }
+
+    myReduceFunction(total, value, index, array) {
+        return total + value;
     }
 }
 
