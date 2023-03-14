@@ -9,7 +9,7 @@
 ### Dotnet Console Setup & Run
 
 ```
-dotnet new console => Init Dotnet console projects
+dotnet new console => Init Dotnet console projects (Direk 'dotnet new console' yaz)
 
 dotnet run => Run projects
 
