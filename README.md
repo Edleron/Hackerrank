@@ -21,6 +21,8 @@ Terminal -> cd..  	|| bir üst dosyaya geri dönme
 
 ```
 node "scriptName.js"
+> Parametre Addings
+To this (key combo Ctrl+C):
 ```
 
 ### Todo Roadmap List
