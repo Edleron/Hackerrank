@@ -87,10 +87,12 @@ function BinarySearchTree() {
         // Seviye 0'da (Level 0) -> 3 ziyaret edilir.
         // Seviye 1'da (Level 1) -> Önce 2 sonrasında 5 Ziyaret edilir.
         // Seviye 2'da (Level 2) -> Önce 1 sonrasında 4 en sonda 5 ziyare Ziyaret edilir.
+        let result = "";
         var queue = [root];
         while (queue.length > 0) {
             var node = queue.shift();
-            console.log(node.data);
+            // console.log(node.data);
+            result += node.data + " ";
             if (node.left) {
                 queue.push(node.left);
             }
@@ -98,6 +100,8 @@ function BinarySearchTree() {
                 queue.push(node.right);
             }
         }
+
+        console.log(result);
 
     }; // End of function levelOrder
 }; // End of function BinarySearchTree
