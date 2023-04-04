@@ -5,6 +5,7 @@
 * Code review
 * Other guidelines
 * Hackerrank Code Challenges
+* Thank you ! [xeoneux](https://github.com/xeoneux/30-Days-of-Code)
 
 ### Dotnet Console Setup & Run
 
